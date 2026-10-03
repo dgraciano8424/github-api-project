@@ -1,7 +1,29 @@
 .title {
-  font-size: large;
+  font-size: 55px;
+
+
 }
 
 .avatarPic {
   height: 200px;
+}
+
+input {
+  color: rgb(191, 15, 127);
+
+  width: 50%;
+}
+
+.submit {
+  background-color: rgba(15, 61, 176, 0.853);
+  color: white;
+  border-color: black;
+  width: 65px;
+  height: 30px;
+
+}
+
+.search-a-face {
+  font-size: 35px;
+
 }

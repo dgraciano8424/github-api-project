@@ -21,9 +21,10 @@ submitBTN.addEventListener("click", function () {
     .then((data) => {
       console.log(data, data.author.login, data.author.avatar_url);
       let loginInfo = data.author.login;
+      let loginStatement = `Login: ${loginInfo}`;
       // * let avatarPicSource = data.author.avatar_url;
       let loginInfoElement = document.createElement("div");
-      loginInfoElement.insertAdjacentHTML("beforeend", loginInfo);
+      loginInfoElement.insertAdjacentHTML("beforeend", loginStatement);
 
       avatarContainer.append(loginInfoElement);
 
